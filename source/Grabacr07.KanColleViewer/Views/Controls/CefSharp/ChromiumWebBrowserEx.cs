@@ -41,7 +41,7 @@ namespace CefSharp.Wpf
 			var accessor = renderHandler.GetType()
 				.GetField("viewMemoryMappedViewAccessor", BindingFlags.NonPublic | BindingFlags.Instance)
 				.GetValue(RenderHandler) as MemoryMappedViewAccessor;
-			if(accessor == null)
+			if (accessor == null)
 			{
 				throw new Exception("MemoryMappedViewAccessor of RenderHandler not initialized");
 			}

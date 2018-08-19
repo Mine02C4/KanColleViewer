@@ -12,7 +12,7 @@ using Grabacr07.KanColleViewer.Models;
 
 namespace Grabacr07.KanColleViewer.Views.Behaviors
 {
-	public class NavigatorBehavior : Behavior<ChromiumWebBrowser>
+	public class NavigatorBehavior : Behavior<ChromiumWebBrowserEx>
 	{
 		#region Navigator 依存関係プロパティ
 

@@ -281,6 +281,7 @@
     <Compile Include="Views\Contents\Tools.xaml.cs">
       <DependentUpon>Tools.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Controls\CefSharp\ChromiumWebBrowserEx.cs" />
     <Compile Include="Views\Controls\MetroComboBox.cs" />
     <Compile Include="Views\Converters\RangeToBooleanConverter.cs" />
     <Compile Include="Views\InformationWindow.xaml.cs">
